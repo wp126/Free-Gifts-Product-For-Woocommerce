@@ -1,0 +1,84 @@
+.fgw_container {
+    width: 100%;
+}
+label.fgw_comman_link {
+    font-weight: bold;
+}
+li.nav-tab {
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+li.nav-tab.nav-tab-active {
+    margin-bottom: -1px;
+}
+.fgw_container .tab-content {
+    display: none;
+    padding: 15px 0;
+}
+.fgw_container .tab-content.current {
+    display: inherit;
+}
+.fgw_child_div label {
+    width: 100%;
+    display: inline-block;
+}
+.fgw_container .fgw_child_div {
+    display: inline-block;
+    width: 100%;
+}
+.fgw_desc {
+  display: block;
+  margin-top: 2px;
+}
+.fgw_tbl1 td a.addrow, .fgw_tbl1 td a.deleterow {
+    cursor: pointer;
+}
+.fgw_container .slider_display_devices label {
+    margin-bottom: 10px;
+    width: max-content;
+}
+.fgw_container .slider_display_devices label input {
+    margin: 0px 10px 0px 0px;
+}
+.fgw_container .slider_display_devices {
+    display: flex;
+    flex-direction: column;
+}
+.fgw_container #poststuff .postbox .inside table tr td.slider_display_devices {
+    display: inline-flex;
+}
+.fgw_container #poststuff .postbox .inside table {
+    width: 100%;
+}
+.fgw_container #poststuff .postbox .inside table tr {
+    vertical-align: top;
+}
+.fgw_container #poststuff .postbox .inside table tr th, .fgw_container #poststuff .postbox .inside table tr td {
+    display: inline-block;
+    text-align: left;
+    padding: 15px 5px;
+}
+.fgw_container #poststuff .postbox .inside table tr th {
+    width: 15%;
+}
+.fgw_container #poststuff .postbox .inside table tr td {
+    width: 80%;
+}
+.fgw_container #poststuff .postbox .inside table.fgw_tbl1 tr td {
+    padding: 5px 10px;
+    width: min-content;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.fgw_container #poststuff .postbox .inside table.fgw_tbl1 tr td:nth-child(4) {
+    /*width: 35%;*/
+}
+.fgw_container #poststuff .postbox .inside table.fgw_tbl1 tr td a.button-primary {
+    margin: 5px 0px;
+}
+.card.fgw_notice {
+    max-width: 100%;
+}
+.card.fgw_notice a{
+    margin-right: 20px;
+}

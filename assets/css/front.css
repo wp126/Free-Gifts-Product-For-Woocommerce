@@ -1,0 +1,196 @@
+.fgw_gift {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    margin: 30px 0px;
+}
+.fgw_gift .fgw_gift_product {
+    text-align: center;
+}
+.fgw_gift .fgw_gift_product a {
+    text-decoration: none !important;
+}
+.fgw_gift .item.fgw_gift_product img {
+    max-width: 100%;
+}
+.fgw_gift .item.fgw_gift_product {
+    border: 1px solid #ccc;
+}
+.fgw_gift .fgw_title {
+    padding: 5px 0px;
+}
+.fgw_gift p {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.fgw_gift_atc_btn {
+    margin-bottom: 10px;
+}
+.fgw_gift_atc_btn a {
+    font-size: 14px;
+    cursor: pointer;
+}
+/* Gift Popup Start */
+.fgw_gifts_popup_main {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.fgw_gifts_popup_main .modal-content {
+  position: relative;
+  z-index: 99999;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.fgw_gifts_popup_main .fgw_gifts_popup_close {
+    position: absolute;
+    right: -13px;
+    top: -12px;
+    height: 25px;
+    line-height: 25px;
+    width: 25px;
+    z-index: 9999999;
+    background-color: black;
+    border-radius: 25px;
+    padding: 0;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.fgw_gifts_popup_close svg {
+    width: 15px;
+    height: 15px !important;
+    text-align: center;
+    line-height: 25px;
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+}
+.fgw_gifts_popup_close svg path {
+    fill: #fff;
+}
+
+.fgw_gifts_popup_main .fgw_gifts_popup_close:hover,
+.fgw_gifts_popup_main .fgw_gifts_popup_close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.fgw_gifts_popup_main .modal-header {
+  padding: 2px 16px;
+}
+
+.fgw_gifts_popup_main .modal-body {
+  padding: 10px 16px;
+}
+/* Gift Popup End */
+.fgw_body_gift {
+    overflow: hidden;
+    position: relative;
+}
+.fgw_body_gift:after {
+    position: absolute;
+    content: "";
+    background-color: rgba(0,0,0,0.2);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+.fgw_loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999999999;
+}
+.fgw_gifts_popup_overlay {
+    display: none;
+    background: transparent;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.fgw_gifts_popup_main .fgw_gift {
+    float: none;
+    margin: 0;
+}
+.fgw_disable {
+  pointer-events: none;
+  opacity: 0.7;
+}
+.fgw_disalalslas {
+  pointer-events: none;
+  opacity: 0.7;
+}
+.fgw_gift_slider.owl-theme .owl-nav [class*=owl-]:hover {
+  background: none;
+}
+.fgw_body_gift .owl-theme .owl-nav [class*=owl-]:hover {
+  background: none;
+}
+p.fgw_notice_msg {
+    font-weight: bold;
+    width:100%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: inline-block;
+}
+.woocommerce-message p.fgw_notice_msg a.fgw_gift_btn {
+    display: inline;
+    line-height: normal;
+    padding: 5px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0px;
+}
+.fgw_gift_div {
+    direction: initial;
+}
+.fgw_gift_div .fgw_gift_slider .owl-nav, .fgw_gift .fgw_gift_slider_pp .owl-nav {
+    top: 35%;
+}
+.woocommerce-notices-wrapper .woocommerce-message.fgw_mwssagw_main::before {
+    content: "\e028";
+}
